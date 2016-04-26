@@ -8,7 +8,7 @@ public class Shell extends Sort {
         int h = 1;
         while (3 * h < len) h = 3 * h + 1;
         while (h >= 1) {
-            for (int i = 1; i < len; i++) {
+            for (int i = h; i < len; i++) {
                 for (int j = i; j >= h && a[j] < a[j - h]; j -= h)
                     exch(a, j, j - h);
             }

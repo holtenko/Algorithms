@@ -1,7 +1,7 @@
 /**
  * Created by hotsky on 16/4/25.
  */
-public class Heap extends Sort {
+public class Heap0 extends Sort {
     @Override
     public void sort(int[] a) {
         int len = a.length;

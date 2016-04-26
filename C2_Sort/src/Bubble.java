@@ -8,7 +8,6 @@ public class Bubble extends Sort {
         for (int i = 0; i < a.length; i++) {
             for (int j = a.length - 1; j > i; j--) {
                 if (a[j] < a[j - 1]) exch(a, j, j - 1);
-
             }
         }
     }
