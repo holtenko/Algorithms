@@ -1,4 +1,5 @@
 *.class
+# Idea files
 */.idea/
 *.iml
 
