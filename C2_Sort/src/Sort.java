@@ -7,7 +7,7 @@ public abstract class Sort {
         a[i] = a[j];
         a[j] = tmp;
         for(int k:a){
-            System.out.print(k+",");
+            System.out.print(k+" ");
         }
         System.out.println();
     }
